@@ -12,6 +12,9 @@ module "iam_role" {
 
   use_fullname = true
 
+  policy_documents      = []
+  policy_document_count = 0
+
   policy_description = "AWS Config IAM policy"
   role_description   = "AWS Config IAM role"
 
