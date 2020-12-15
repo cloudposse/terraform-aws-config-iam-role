@@ -10,6 +10,7 @@ module "iam_role" {
     "Service" = ["config.amazonaws.com"]
   }
 
+  name         = "aws-config"
   use_fullname = true
 
   policy_documents      = []
